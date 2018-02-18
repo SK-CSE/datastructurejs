@@ -1,9 +1,9 @@
-# datastructurejs
+# ds4js
 NPM package for data structure
 
 command to Install :
 ```js
-npm install datastructurejs --save
+npm install ds4js --save
 ```
 Data Structure:
 
@@ -11,15 +11,15 @@ Data Structure:
 
 Example:
 ```js
-const dataStructure = require('datastructurejs');
+const dataStructure = require('ds4js');
 
 var stack = dataStructure.stack();
 
 stack.push("hello");
-let element = stack.peek(); // hello
+var element = stack.peek(); // hello
 var length = stack.length(); // 1
-let isEmpty = stack.isEmpty(); // false
-let element = stack.pop(); // hello
+var isEmpty = stack.isEmpty(); // false
+var element = stack.pop(); // hello
 var length = stack.length(); // 0
 var isEmpty = stack.isEmpty(); // true
 ```
