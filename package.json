@@ -1,5 +1,5 @@
 {
-  "name": "datastructure.js",
+  "name": "ds4js",
   "version": "1.0.0",
   "description": "NPM package for data structure",
   "main": "index.js",
