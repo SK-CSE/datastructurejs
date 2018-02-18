@@ -12,7 +12,9 @@ Data Structure:
 Example:
 ```js
 const dataStructure = require('datastructurejs');
+
 var stack = dataStructure.stack();
+
 stack.push("hello");
 let element = stack.peek(); // hello
 var length = stack.length(); // 1
